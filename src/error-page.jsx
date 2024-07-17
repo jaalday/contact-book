@@ -6,8 +6,9 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
+      
+      <img src="https://mskuwait.com/wp-content/uploads/2023/04/3d-render-error-404-page-found-your-mockup-design.jpg"/>
+   
       <p>
         <i>{error.statusText || error.message}</i>
       </p>

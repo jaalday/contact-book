@@ -45,6 +45,7 @@ export default function Contact() {
             </a>
           </p>
         )}
+        {contact.phone && <p>{contact.phone}</p>}
 
         {contact.notes && <p>{contact.notes}</p>}
 

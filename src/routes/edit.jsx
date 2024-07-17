@@ -36,12 +36,21 @@ export default function EditContact() {
         />
       </p>
       <label>
-        <span>Twitter</span>
+        <span>Email</span>
         <input
           type="text"
           name="twitter"
           placeholder="@jack"
-          defaultValue={contact.twitter}
+          defaultValue={contact.email}
+        />
+      </label>
+      <label>
+        <span>Phone</span>
+        <input
+          type="text"
+          name="phone"
+          placeholder="123-456-7890"
+          defaultValue={contact.phone}
         />
       </label>
       <label>
